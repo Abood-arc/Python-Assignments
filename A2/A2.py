@@ -64,7 +64,7 @@ def Q7():
    print("POSITIVE")
   else:
    print("NEGATIVE")
-def Q8():
+def Q9():
     print("ENTER A NUMBER TO CHECK PRIME OR NOT :")
     num=int(input())
     flag=0
@@ -76,7 +76,7 @@ def Q8():
         print("PRIME")
     else:
         print("NOT PRIME")
-def Q9():
+def Q10():
     num=random.randint(1,100)
     while(1):
         print("GUESS A NUMBER BETWEEN 1 AND 100")
@@ -85,6 +85,24 @@ def Q9():
             print("TOO HIGH")
         elif(guess<num):
             print("TOO LOW")
+def Q8():
+    print("ENTER FIRST NUMBER :")  
+    a=float(input())  
+    print("ENTER SECOND NUMBER :")
+    b=float(input())
+    print("ENTER OPERATION (+,-,*,/):")
+    op=input()
+    if(op=="+"):
+        print(f"RESULT IS : {a+b}")
+    elif(op=="-"):
+        print(f"RESULT IS : {a-b}")
+    elif(op=="*"):
+        print(f"RESULT IS : {a*b}")
+    elif(op=="/"):
+        if(b!=0):
+         print(f"RESULT IS : {a/b}")
+        else:
+         print("DIVISION BY ZERO NOT POSSIBLE")
             
 
 print("ENTER QUESTION NUMBER TO EXECUTE like Q1,Q2,Q3....Q10")
