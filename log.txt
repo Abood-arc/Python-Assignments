@@ -1,0 +1,7 @@
+file not found 
+Error 404
+Exception 
+indentation error 
+missing semi colon
+
+program runs successfully
